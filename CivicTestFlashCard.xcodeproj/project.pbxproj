@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1B91541943DEEE0093ACD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B91531943DEEE0093ACD9 /* AppDelegate.swift */; };
+		CE1B91571943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE1B91551943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodeld */; };
+		CE1B91591943DEEE0093ACD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1B91581943DEEE0093ACD9 /* Images.xcassets */; };
+		CE1B91651943DEEE0093ACD9 /* CivicTestFlashCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B91641943DEEE0093ACD9 /* CivicTestFlashCardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE1B915F1943DEEE0093ACD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE1B91461943DEEE0093ACD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1B914D1943DEEE0093ACD9;
+			remoteInfo = CivicTestFlashCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1B914E1943DEEE0093ACD9 /* CivicTestFlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CivicTestFlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1B91521943DEEE0093ACD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1B91531943DEEE0093ACD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE1B91561943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CivicTestFlashCard.xcdatamodel; sourceTree = "<group>"; };
+		CE1B91581943DEEE0093ACD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE1B915E1943DEEE0093ACD9 /* CivicTestFlashCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CivicTestFlashCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1B91631943DEEE0093ACD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1B91641943DEEE0093ACD9 /* CivicTestFlashCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivicTestFlashCardTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1B914B1943DEEE0093ACD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1B915B1943DEEE0093ACD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1B91451943DEEE0093ACD9 = {
+			isa = PBXGroup;
+			children = (
+				CE1B91501943DEEE0093ACD9 /* CivicTestFlashCard */,
+				CE1B91611943DEEE0093ACD9 /* CivicTestFlashCardTests */,
+				CE1B914F1943DEEE0093ACD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1B914F1943DEEE0093ACD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B914E1943DEEE0093ACD9 /* CivicTestFlashCard.app */,
+				CE1B915E1943DEEE0093ACD9 /* CivicTestFlashCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1B91501943DEEE0093ACD9 /* CivicTestFlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B91531943DEEE0093ACD9 /* AppDelegate.swift */,
+				CE1B91581943DEEE0093ACD9 /* Images.xcassets */,
+				CE1B91551943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodeld */,
+				CE1B91511943DEEE0093ACD9 /* Supporting Files */,
+			);
+			path = CivicTestFlashCard;
+			sourceTree = "<group>";
+		};
+		CE1B91511943DEEE0093ACD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B91521943DEEE0093ACD9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE1B91611943DEEE0093ACD9 /* CivicTestFlashCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B91641943DEEE0093ACD9 /* CivicTestFlashCardTests.swift */,
+				CE1B91621943DEEE0093ACD9 /* Supporting Files */,
+			);
+			path = CivicTestFlashCardTests;
+			sourceTree = "<group>";
+		};
+		CE1B91621943DEEE0093ACD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B91631943DEEE0093ACD9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1B914D1943DEEE0093ACD9 /* CivicTestFlashCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1B91681943DEEE0093ACD9 /* Build configuration list for PBXNativeTarget "CivicTestFlashCard" */;
+			buildPhases = (
+				CE1B914A1943DEEE0093ACD9 /* Sources */,
+				CE1B914B1943DEEE0093ACD9 /* Frameworks */,
+				CE1B914C1943DEEE0093ACD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CivicTestFlashCard;
+			productName = CivicTestFlashCard;
+			productReference = CE1B914E1943DEEE0093ACD9 /* CivicTestFlashCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE1B915D1943DEEE0093ACD9 /* CivicTestFlashCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1B916B1943DEEE0093ACD9 /* Build configuration list for PBXNativeTarget "CivicTestFlashCardTests" */;
+			buildPhases = (
+				CE1B915A1943DEEE0093ACD9 /* Sources */,
+				CE1B915B1943DEEE0093ACD9 /* Frameworks */,
+				CE1B915C1943DEEE0093ACD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1B91601943DEEE0093ACD9 /* PBXTargetDependency */,
+			);
+			name = CivicTestFlashCardTests;
+			productName = CivicTestFlashCardTests;
+			productReference = CE1B915E1943DEEE0093ACD9 /* CivicTestFlashCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1B91461943DEEE0093ACD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = xiaolozhang;
+				TargetAttributes = {
+					CE1B914D1943DEEE0093ACD9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CE1B915D1943DEEE0093ACD9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CE1B914D1943DEEE0093ACD9;
+					};
+				};
+			};
+			buildConfigurationList = CE1B91491943DEEE0093ACD9 /* Build configuration list for PBXProject "CivicTestFlashCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE1B91451943DEEE0093ACD9;
+			productRefGroup = CE1B914F1943DEEE0093ACD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1B914D1943DEEE0093ACD9 /* CivicTestFlashCard */,
+				CE1B915D1943DEEE0093ACD9 /* CivicTestFlashCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1B914C1943DEEE0093ACD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1B91591943DEEE0093ACD9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1B915C1943DEEE0093ACD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1B914A1943DEEE0093ACD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1B91541943DEEE0093ACD9 /* AppDelegate.swift in Sources */,
+				CE1B91571943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1B915A1943DEEE0093ACD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1B91651943DEEE0093ACD9 /* CivicTestFlashCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE1B91601943DEEE0093ACD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE1B914D1943DEEE0093ACD9 /* CivicTestFlashCard */;
+			targetProxy = CE1B915F1943DEEE0093ACD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE1B91661943DEEE0093ACD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE1B91671943DEEE0093ACD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1B91691943DEEE0093ACD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CivicTestFlashCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE1B916A1943DEEE0093ACD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CivicTestFlashCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE1B916C1943DEEE0093ACD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CivicTestFlashCard.app/CivicTestFlashCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CivicTestFlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CE1B916D1943DEEE0093ACD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CivicTestFlashCard.app/CivicTestFlashCard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CivicTestFlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1B91491943DEEE0093ACD9 /* Build configuration list for PBXProject "CivicTestFlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1B91661943DEEE0093ACD9 /* Debug */,
+				CE1B91671943DEEE0093ACD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1B91681943DEEE0093ACD9 /* Build configuration list for PBXNativeTarget "CivicTestFlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1B91691943DEEE0093ACD9 /* Debug */,
+				CE1B916A1943DEEE0093ACD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE1B916B1943DEEE0093ACD9 /* Build configuration list for PBXNativeTarget "CivicTestFlashCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1B916C1943DEEE0093ACD9 /* Debug */,
+				CE1B916D1943DEEE0093ACD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE1B91551943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE1B91561943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodel */,
+			);
+			currentVersion = CE1B91561943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodel */;
+			path = CivicTestFlashCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE1B91461943DEEE0093ACD9 /* Project object */;
+}
