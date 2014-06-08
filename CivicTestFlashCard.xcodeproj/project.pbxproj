@@ -11,6 +11,8 @@
 		CE1B91571943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE1B91551943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodeld */; };
 		CE1B91591943DEEE0093ACD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1B91581943DEEE0093ACD9 /* Images.xcassets */; };
 		CE1B91651943DEEE0093ACD9 /* CivicTestFlashCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B91641943DEEE0093ACD9 /* CivicTestFlashCardTests.swift */; };
+		CE1B916F1943DF9F0093ACD9 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1B916E1943DF9F0093ACD9 /* Storyboard.storyboard */; };
+		CE1B91711943E21D0093ACD9 /* vcMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B91701943E21D0093ACD9 /* vcMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		CE1B915E1943DEEE0093ACD9 /* CivicTestFlashCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CivicTestFlashCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1B91631943DEEE0093ACD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE1B91641943DEEE0093ACD9 /* CivicTestFlashCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivicTestFlashCardTests.swift; sourceTree = "<group>"; };
+		CE1B916E1943DF9F0093ACD9 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CE1B91701943E21D0093ACD9 /* vcMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				CE1B91581943DEEE0093ACD9 /* Images.xcassets */,
 				CE1B91551943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodeld */,
 				CE1B91511943DEEE0093ACD9 /* Supporting Files */,
+				CE1B916E1943DF9F0093ACD9 /* Storyboard.storyboard */,
+				CE1B91701943E21D0093ACD9 /* vcMain.swift */,
 			);
 			path = CivicTestFlashCard;
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1B91591943DEEE0093ACD9 /* Images.xcassets in Resources */,
+				CE1B916F1943DF9F0093ACD9 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1B91541943DEEE0093ACD9 /* AppDelegate.swift in Sources */,
+				CE1B91711943E21D0093ACD9 /* vcMain.swift in Sources */,
 				CE1B91571943DEEE0093ACD9 /* CivicTestFlashCard.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
